@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
 	<Nullable>enable</Nullable>
 	<PackageId>Softmax.Logging.NLogAdapter</PackageId>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
 	<Authors>Morteza Mirshekar</Authors>
 	<Company>Softmax</Company>
 	<Description>A great library for Logger management projects.</Description>
