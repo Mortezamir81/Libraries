@@ -3,12 +3,30 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<Nullable>enable</Nullable>
+		<PackageId>Softmax.Logging</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Morteza Mirshekar</Authors>
+		<Company>Softmax</Company>
+		<Description>A great library for Logger management projects.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Mortezamir81/Libraries</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<Compile Remove="Models\**" />
 		<EmbeddedResource Remove="Models\**" />
 		<None Remove="Models\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="README.md">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
 </Project>
